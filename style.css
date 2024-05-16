@@ -1,0 +1,112 @@
+
+body {
+font-family: 'Arial', sans-serif;
+color: #3E2723; 
+background-color: #FFF3E0; 
+margin: 0;
+padding: 0;
+}
+
+header, footer {
+background-color: #6D4C41; 
+color: white;
+text-align: center;
+padding: 10px 0;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+nav ul li {
+display: inline;
+margin-right: 10px;
+}
+
+a {
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+
+section {
+padding: 20px;
+margin: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+table {
+width: 80%;
+margin-top: 20px;
+border-collapse: collapse;
+}
+
+th, td {
+border: 1px solid #BDBDBD;
+padding: 8px;
+text-align: left;
+}
+
+th {
+background-color: #8D6E63; 
+}
+
+
+form {
+max-width: 500px;
+margin: 20px;
+}
+
+input[type="text"], input[type="email"], select, textarea {
+width: 100%;
+padding: 8px;
+margin-top: 5px;
+margin-bottom: 10px;
+box-sizing: border-box;
+}
+
+button {
+background-color: #4CAF50; 
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+button:hover {
+background-color: #45A049;
+}
+
+
+img {
+max-width: 200px;
+height: 220px;
+}
+
+
+@keyframes buttonHoverAnimation {
+0% {
+    background-color: #4CAF50;
+}
+50% {
+    background-color: #66BB6A;
+}
+100% {
+    background-color: #4CAF50;
+}
+}
+
+button:hover {
+animation: buttonHoverAnimation 1s infinite;
+}
